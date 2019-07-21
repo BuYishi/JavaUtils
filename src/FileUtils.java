@@ -7,6 +7,14 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class FileUtils {
+    public static boolean deleteFile(String filename) {
+        return new File(filename).delete();
+    }
+
+    public static boolean deleteFile(File file) {
+        return file.delete();
+    }
+
     public static void copy(String source, String destination) throws IOException {
         copy(new File(source), new File(destination));
     }
