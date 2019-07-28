@@ -15,6 +15,32 @@ public class FileUtils {
         return file.delete();
     }
 
+    public static boolean deleteDirectory(String directoryName) {
+        return deleteDirectory(new File(directoryName));
+    }
+
+    public static boolean deleteDirectory(File directory) {
+        clearDirectory(directory);
+        return directory.delete();
+    }
+
+    public static void clearDirectory(String directoryName) {
+        clearDirectory(new File(directoryName));
+    }
+
+    public static void clearDirectory(File directory) {
+        File[] files = directory.listFiles();
+        if (files != null) {
+            for (File file : files) {
+                if (file.isFile()) {
+                    file.delete();
+                } else {
+                    deleteDirectory(file);
+                }
+            }
+        }
+    }
+
     public static void copy(String source, String destination) throws IOException {
         copy(new File(source), new File(destination));
     }
