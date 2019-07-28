@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1b5f4a9-af44-4a0e-8c93-258118eded60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileUtils.java" afterDir="false" />
-    </list>
+    <list default="true" id="f1b5f4a9-af44-4a0e-8c93-258118eded60" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,24 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FileUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="26" column="37" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,8 +91,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="28" width="1124" height="820" extended-state="0" />
-    <editor active="true" />
+    <frame x="3" y="28" width="1124" height="820" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18984963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -144,14 +123,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="1121">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
           </folding>
         </state>
       </provider>
